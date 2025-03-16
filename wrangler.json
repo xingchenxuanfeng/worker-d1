@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "worker-d1-server",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "cdf3d9d7-44d3-473b-b81e-7999109b01e0",
+      "database_name": "worker-d1-db"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
